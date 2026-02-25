@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Của Tôi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #4CAF50;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Xin Chào 👋</h1>
+    <p>Đây là trang web đầu tiên của tôi</p>
+</header>
+
+<nav>
+    <a href="#">Trang Chủ</a>
+    <a href="#">Giới Thiệu</a>
+    <a href="#">Liên Hệ</a>
+</nav>
+
+<section>
+    <div class="card">
+        <h2>Về Tôi</h2>
+        <p>Tôi đang học lập trình web.</p>
+        <button onclick="showMessage()">Nhấn vào đây</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 - Trang Web Của Tôi</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Cảm ơn bạn đã ghé thăm trang web!");
+    }
+</script>
+
+</body>
+</html>
